@@ -47,3 +47,5 @@ gem 'dot_env', '~> 0.0.3'
 gem 'active_model_serializers', '~> 0.10.0'
 
 gem 'rest-client', '~> 2.1.0'
+
+gem 'dotenv-rails', groups: [:development, :test]
