@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :collections
   resources :users #, only: [:create]
   post '/login', to: 'auth#create'
-  get '/profile', to: 'users#profile'
+  # get '/profile', to: 'users#profile' # is this needed????
   # resources :notes
 end
 

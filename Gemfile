@@ -42,7 +42,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jwt', '~> 2.2', '>= 2.2.1'
 
-gem 'dot_env', '~> 0.0.3'
+# gem 'dot_env', '~> 0.0.3' # this is a dud. confirm then delete
 
 gem 'active_model_serializers', '~> 0.10.0'
 
