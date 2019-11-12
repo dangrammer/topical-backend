@@ -11,6 +11,14 @@ skip_before_action :authorized, only: [:create]
   #   render json: {user: UserSerializer.new(current_user)}, status: :accepted
   # end
 
+  def show
+    if current_user.id == params[:id].to_i
+      render json: current_user, include: :collections
+    else
+      render json: {go_away: true}, status: :unauthorized
+    end
+  end
+
   def create
     @user = User.create(user_params)
     if @user.valid?
