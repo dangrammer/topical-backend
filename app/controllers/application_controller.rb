@@ -34,7 +34,7 @@ class ApplicationController < ActionController::API
   end
 
   def signing_secret
-    ENV["JWT_SECRET_KEY"]
+    ENV['JWT_SECRET_KEY']
   end
 
   def authorized

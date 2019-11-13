@@ -6,11 +6,6 @@ skip_before_action :authorized, only: [:create]
   #   render json: users
   # end
 
-  # is this needed????
-  # def profile
-  #   render json: {user: UserSerializer.new(current_user)}, status: :accepted
-  # end
-
   def show
     if current_user.id == params[:id].to_i
       render json: current_user, include: :collections
