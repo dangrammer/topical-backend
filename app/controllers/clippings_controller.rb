@@ -10,6 +10,11 @@ class ClippingsController < ApplicationController
     render json: clipping
   end
 
+  def destroy
+    clipping = Clipping.find(params[:id])
+    clipping.destroy
+  end
+
   private
 
   def clipping_params
