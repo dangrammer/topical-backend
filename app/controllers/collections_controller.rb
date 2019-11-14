@@ -23,10 +23,15 @@ class CollectionsController < ApplicationController
     render json: collection
   end
 
+  def destroy
+    collection = Collection.find(params[:id])
+    collection.destroy
+  end
+
   private
 
   def collection_params
-    params.require(:collection).permit(:name, :user_id)
+    params.require(:collection).permit(:name, :user_id, :notepad)
   end
   
 end
