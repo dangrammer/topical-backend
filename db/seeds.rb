@@ -10,13 +10,18 @@ fetch_url = "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=#{ENV['
 data = JSON.parse(RestClient.get(fetch_url))
 
 data['results'].map do |article|
-  # byebug
+  if article['multimedia'][4] == nil
+    image = 'https://strongminds.org/wp-content/uploads/2017/08/NYT-logo.png'
+  else
+    image = article['multimedia'][4]['url']
+  end
+  
   Article.create(
     title: article['title'], 
     author: article['byline'], 
     description: article['abstract'],
     section: article['section'],
-    image_url: 'https://strongminds.org/wp-content/uploads/2017/08/NYT-logo.png', #article['multimedia'][1]['url'], #
+    image_url: image,
     url: article['url'],
     publication_date: article['published_date'])
 end
