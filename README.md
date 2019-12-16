@@ -89,4 +89,4 @@ To-dos include:
 
   *_Note:_ `KEY_HERE` _should be characters of your choice for_ `JWT_SECRET_KEY` _and an
   individually assigned key from the New York Times developer portal for_ `NYT_API_KEY` _.
-  An API key for the NYT website can be attained by signing up with the_ [NYT Developer Network](https://developer.nytimes.com/)_. It is simple and free to do so._
+  An API key for the NYT website can be attained by signing up with the_ [NYT Developer Network](https://developer.nytimes.com/)_. It is simple and free to do so._ **Always include** `.env` **file in** `.gitignore` **file**.
