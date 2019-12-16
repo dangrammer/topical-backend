@@ -13,6 +13,10 @@ These include to-dos like:
   - add custom validation error messages
   - enhance styling
 
+## Authors
+  - Lisa LaRochelle [lilaro](https://github.com/lilaro)
+  - Dan Romans [dangrammer](https://github.com/dangrammer)
+
 ## Frontend Repository
   - [Topical Client](https://github.com/dangrammer/topical-frontend)
 
@@ -47,21 +51,21 @@ These include to-dos like:
 
 ## Screenshots
 
-  <!-- Login/Signup
+  Login/Signup
   <br/>
   ![Login/Signup Demo](public/gifs/login_signup.gif)
 
-  Listings
+  Filter Articles
   <br/>
-  ![Listings Demo](public/gifs/listings.gif)
+  ![Filter Demo](public/gifs/filter_article.gif)
 
-  Profiles
+  Add, Edit, and Delete Collection
   <br/>
-  ![Profiles Demo](public/gifs/profiles.gif)
+  ![Collections Demo](public/gifs/add_edit_delete_collection.gif)
 
-  Dashboard
+  Add and Edit Articles and Notes
   <br/>
-  ![Dashboard Demo](public/gifs/dashboard.gif) -->
+  ![Articles Demo](public/gifs/add_edit_collection_and_notes.gif)
 
 
 ## How To Install and Run
@@ -83,6 +87,6 @@ These include to-dos like:
   8. run `rails s` in terminal to run server in browser at http://localhost:3000/
   9. install and run [Topical frontend](https://github.com/dangrammer/topical-frontend)
 
-  *_Note: `KEY_HERE` should be characters of your choice for_ `JWT_SECRET_KEY` _and an
+  *_Note:_ `KEY_HERE` _should be characters of your choice for_ `JWT_SECRET_KEY` _and an
   individually assigned key from the New York Times developer portal for_ `NYT_API_KEY` _.
-  An API key for the NYT website can be attained by signing up with the [NYT Developer Network](https://developer.nytimes.com/). It is simple and free to do so._
+  An API key for the NYT website can be attained by signing up with the_ [NYT Developer Network](https://developer.nytimes.com/)_. It is simple and free to do so._
