@@ -24,18 +24,18 @@ To-dos include:
   - ruby 2.6.1
 
 ## Rails Version
-  - rails ~> 6.0.0
+  - rails 6.0.3.1
 
 ## Database
-  - postgreSQL
+  - postgreSQL 1.2.3
 
 ## Gem Dependencies
-  - active_model_serializers ~> 0.10.0
-  - rest-client ~> 2.1.0
-  - rack-cors
-  - bcrypt ~> 3.1.7
-  - jwt ~> 2.2, >= 2.2.1
-  - dotenv-rails
+  - active_model_serializers 0.10.10
+  - rest-client 2.1.0
+  - rack-cors 1.1.1
+  - bcrypt 3.1.13
+  - jwt 2.2.1
+  - dotenv-rails 2.7.5
 
 ## Live Demo
   Link to walkthrough video with narration:
