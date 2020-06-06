@@ -174,15 +174,15 @@ GEM
     unf_ext (0.0.7.7)
     websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
     zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_model_serializers (~> 0.10.0)
-  bcrypt (~> 3.1.7)
+  active_model_serializers (~> 0.10.10)
+  bcrypt (~> 3.1.13)
   bootsnap (>= 1.4.2)
   byebug
   dotenv-rails
@@ -191,7 +191,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rack-cors
-  rails (~> 6.0.0)
+  rails (~> 6.0.3.1)
   rest-client (~> 2.1.0)
   spring
   spring-watcher-listen (~> 2.0.0)
